@@ -19,7 +19,7 @@ public class Repetições_2 {
 		i++;
 		}
 		teste.numTentativas();
-		
+		teste.testandoNova();
 	}
 
 	public void gerarNum() {
@@ -48,5 +48,9 @@ public class Repetições_2 {
 	
 	public void numTentativas() {
 		System.out.println("O seu numero de tentativas foi:" + i);
+	}
+	
+	public void testandoNova() {
+		System.out.println("testandooooooooooooo");
 	}
 }
