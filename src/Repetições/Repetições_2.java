@@ -1,14 +1,14 @@
-package Repetições;
+package RepetiÃ§Ãµes;
 import java.util.Scanner;
 import java.lang.Math;
 
-public class Repetições_2 {
+public class RepetiÃ§Ãµes_2 {
 	
 	static int i = 0;
 	static int random;
 	static int resp;
 	Scanner ler = new Scanner(System.in);
-	static Repetições_2 teste = new Repetições_2();
+	static RepetiÃ§Ãµes_2 teste = new RepetiÃ§Ãµes_2();
 	
 	public static void main(String[] args) {
 		
@@ -19,7 +19,7 @@ public class Repetições_2 {
 		i++;
 		}
 		teste.numTentativas();
-		teste.testandoNova();
+		
 	}
 
 	public void gerarNum() {
@@ -36,13 +36,13 @@ public class Repetições_2 {
 		resp = ler.nextInt();
 		
 		if(resp > random) {
-			System.out.println("O seu palpite é maior que o numero sorteado!!! ");
+			System.out.println("O seu palpite Ã© maior que o numero sorteado!!! ");
 		}
 		if(resp < random) {
-			System.out.println("O seu palpite é menor que o numero sorteado!!! ");
+			System.out.println("O seu palpite Ã© menor que o numero sorteado!!! ");
 		}
 		if(resp == random) {
-			System.out.println("O seu palpite está certo");
+			System.out.println("O seu palpite estÃ¡ certo");
 		}
 	}
 	
@@ -50,7 +50,4 @@ public class Repetições_2 {
 		System.out.println("O seu numero de tentativas foi:" + i);
 	}
 	
-	public void testandoNova() {
-		System.out.println("testandooooooooooooo");
-	}
 }
